@@ -1,0 +1,45 @@
+/*
+
+Couleurs :
+- #121212 : Noir (fond)
+- #e0e0e0 : Blanc (texte)
+- #bb86fc : Violet (titre)
+- #03dac6 : Turquoise (bordure et sous-titre)
+- #333 : Gris foncé (bordure des div)
+- #1e1e1e : Gris (fond des div)
+
+PAGE
+Largeur maximale de la page: 600px
+Espacement intérieur de la page: 20px
+
+FONT
+Font utilisée: Arial
+Tailles de police h1: 36px
+Les autres tailles de police sont celles par défaut du navigateur.
+
+DIV
+Espacement intérieur des div: 20px
+Espacement sous les div: 20px
+Bordure des div: 1px
+Arrondi des div: 5px
+
+IMAGE
+Bordure des images: 6px
+Arrondi des images: 10px
+Taille maximum des images: 500px
+
+*/
+
+body {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+img {
+  /* 💡 Ces 2 lignes doivent rester pour pouvoir ensuite centrer 
+    avec des marges automatiques et pour que la taille maximum 
+    (que vous devez ajouter) se comporte correctement. 
+  */
+  display: block;
+  width: 100%;
+}
